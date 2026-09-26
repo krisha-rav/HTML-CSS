@@ -1,0 +1,31 @@
+<!-- // transition : change original CSS property using mouse effect (hover, click, etc...) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    .box {
+        height: 200px;
+        width: 200px;
+        color: green;
+        background-color: red;
+        transition-property: all;
+        transition-duration: 4s;
+        transition-delay: 3s;
+    }
+
+    .box:hover {
+        height: 100px;
+        width: 100px;
+        color: yellow;
+        background-color: blue;
+    }
+    </style>
+</head>
+<body>
+    <div class="box"> Hello world </div>
+</body>
+</html>

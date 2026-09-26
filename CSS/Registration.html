@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        table{
+             outline: 1px auto #796878;
+             font-size: 20px;
+             line-height: 38px;
+             margin-left: auto;
+             margin-right: auto;
+             background-color: white;
+             padding-left: 50px;
+             padding-right: 40px;
+             padding-bottom: 30px;
+             padding-top: 20px;
+             
+        }
+        p{
+            text-align: center;
+            /* background-color: #796878; */
+            font-family: 'Ink Free', 'Harrington', 'Lucida Sans', 'Lucida Handwriting';
+            font-size: 45px;
+            color: #796878;
+        }
+        body{
+             line-height: 60px;
+             background-color: #FFFCCF;
+             
+        }
+        .submit{
+             padding-right: 15px;
+            padding-left: 15px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            background-color: white;
+        }
+        .submit:hover{
+             background-color: #796878;
+            color: #FFFCCF;
+        }
+    </style>
+</head>
+<body>
+    <p><b>Register</b></p>
+    <form name="main" action="" onclick="" method="">
+    <table >
+       <tr> <td><label>First Name :</label>
+        <td><input type="text" placeholder="Enter your first name" value="" > </tr>
+        <tr><td><label>Last Name :</label>
+        <td><input type="text" placeholder="Enter your last name" value="">  </tr>
+        <tr><td><label> Age :</label>
+            <td><input type="number" min="10" max="50">  <br />
+        <tr><td><label>Email Id :</label>
+        <td><input type="email" placeholder="Enter your Email" value="">  <br />
+        <tr><td><label>Password :</label>
+        <td><input type="password" placeholder="Enter your password" >  <br />
+        <tr><td><label>Phone Number :</label>
+        <td><input type="tel" minlength="10" maxlength="10">  <br />
+        <tr><td><label>Account Type :</label>
+           <td> <select>
+            <option>Student</option>
+            <option>Professional</option>
+            <option>Creator</option>
+            <option>Other</option>
+        </select>
+        <tr><td><label>Profile Picture(optional) :</label>
+        <td><input type="file" />
+        <tr><td><label>Enter Date of Birth :</label>
+        <td><input type="date" /> <br />
+        </select> <br />
+        <tr><td><label>Select Gender :</label>
+        <td><input type="radio" name="gender" value="male" />Male
+        <input type="radio" name="gender" value="female" />Female
+        <input type="radio" name="gender" value="other<tr><td><input type="submit" />Other <br />
+
+        <tr> <td ><label>Content you Prefer :</label>
+        <td><input type="checkbox" name="hobby" value="sports" />Sports 
+        <input type="checkbox" name="hobby" value="Drawing" />Drawing 
+        <input type="checkbox" name="hobby" value="news" />News 
+        <tr><td>
+        <td><input type="checkbox" name="hobby" value="gaming" />Gaming
+        <input type="checkbox" name="hobby" value="dance" />Dance 
+
+        <tr><td> <input type="submit" value="Submit" class="submit" />
+        <td> <input type="reset"  value="Reset" class="submit"/>
+    </table>
+    </form>
+     
+
+</body>
+</html>

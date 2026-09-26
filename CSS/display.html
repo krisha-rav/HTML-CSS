@@ -1,0 +1,64 @@
+<!-- // display : block, inline, inline-block, none, flex -->
+<!-- 1. Block:  dispplay according to elements -->
+<!-- 2. inline : inline can not take height and width  because its dependents on content
+  3. inline-block: it can take height and width
+  4. flex: align in 1 row
+  5. none: invisible  -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .block {
+        display: block;
+      }
+
+      .inline {
+        display: inline;
+      }
+      .inline-block {
+        display: inline-block;
+      }
+      .none {
+        display: none;
+      }
+      .flex-container {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="block">
+      <div>Block 1</div>
+      <div>Block 2</div>
+    </div>
+    <hr />
+
+    <div class="inline">
+      <b> Block 1</b>
+      <b> Block 3</b>
+    </div>
+    <hr />
+
+    <div class="inline-block">
+      <div>Block 1</div>
+      <div>Block 2</div>
+    </div>
+<hr />
+
+    <div class="none">you can see me</div>
+    <hr />
+
+    <div class="flex-container">
+      <div>Block 1</div>
+      <div>Block 1</div>
+      <div>Block 1</div>
+      <div>Block 1</div>
+    </div>
+
+    <!-- display grid -->
+  </body>
+</html>

@@ -1,0 +1,30 @@
+
+<!-- // after and before is used for providing information  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    .main {
+        background-color: blue;
+    }
+
+    .main::before {
+        content: "Hello World";
+        background-color: yellow;
+    }
+
+    .main::after{
+content: "Bye Bye";
+background-color: yellow;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="main">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae excepturi vitae, tenetur magnam ex quos id iste reprehenderit, quas, explicabo quibusdam earum sit quidem! Exercitationem animi natus, aspernatur nostrum facere repudiandae accusantium, consectetur commodi sequi mollitia dignissimos harum similique sint id facilis odit pariatur! Iste, perferendis deleniti. Quidem, atque consequatur.</div>
+</body>
+</html>
